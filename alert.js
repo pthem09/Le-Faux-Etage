@@ -1,2 +1,3 @@
-const name = prompt("Enter your name: ");
-alert("Hello, " + name + "!");
+"use strict";
+const name = "Paul"
+alert("Hello World");
