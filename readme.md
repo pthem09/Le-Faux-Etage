@@ -6,7 +6,7 @@ Hosting link: NEED LINK
 
 User types:
 
-- **Audience Audrey** wants information about the current shows. She plans to buy individual or season tickets.
+- **Audrey Audient** wants information about the current shows. She plans to buy individual or season tickets.
 - **Actor Andy** wants information about upcoming auditions.
 - **Volunteer Vicky** does not want to be onstage but wants to learn how she can help at the box office or building sets.
 - **Radio Rob** wants to contact the theater to schedule a promotional interview on the local show he hosts.
