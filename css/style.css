@@ -4,4 +4,16 @@ body {
 
 p {
     color: darkblue;
+    font-size: 2rem;
+}
+
+.multi-column-container {
+    display: flex;
+}
+
+.three-column-item {
+    width: calc(100% / 3 - 10px);
+    margin: 25px 5 px;
+    border: 5px dotted black;
+    border-radius: 15px;
 }
