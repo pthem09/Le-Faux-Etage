@@ -22,7 +22,7 @@ p {
     border-radius: 14px;
 }
 
-.navitem-current {
+.navitem.current {
     background-color: aquamarine;
     font-style: italic;
 }
@@ -47,4 +47,14 @@ p {
 .role-list{
     list-style: upper-roman;
     color: black;
+}
+
+.carousel-item{
+    color: white;
+}
+
+.bg-highlight-white-text{
+    background: rgba(112, 128, 144, 0.8);
+    border-radius: 6rem;
+    font-weight: bold;
 }
