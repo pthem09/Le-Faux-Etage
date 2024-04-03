@@ -49,10 +49,6 @@ p {
     color: black;
 }
 
-.carousel-item{
-    color: white;
-}
-
 .bg-highlight-white-text{
     background: rgba(112, 128, 144, 0.8);
     border-radius: 6rem;
