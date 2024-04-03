@@ -33,7 +33,7 @@ p {
 }
 
 .navitem :hover{
-    background-color: blueviolet;
+    background-color: rgb(211, 186, 235);
     font-style: oblique;
 }
 
