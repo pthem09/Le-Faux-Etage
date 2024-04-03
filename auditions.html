@@ -1,23 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Auditions - LFE</title>
+    <title>Le Faux Étage</title>
     <link rel="icon" type="image/x-icon" href="./images/favicon.ico">
     <!--Adding CSS Bootstrap-->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+
     <link
-        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
-        rel="stylesheet"
-        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
-        crossorigin="anonymous"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
     />
+
     <link rel="stylesheet" href="./css/style.css"/>
 </head>
+
 <body>
+
+<h1>Le Faux Étage</h1>
+
 <!--adding navigation bar from Bootstrap-->
 <nav class="navbar navbar-expand-lg bg-body-tertiary">
     <div class="container-fluid">
@@ -30,13 +33,13 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="navitem">
+          <li class="navitem-current">
             <a class="nav-link active" aria-current="page" href=".">Home</a>
           </li>
           <li class = "navitem">
             <a class="nav-link active" aria-current="page" href="./tickets.html">Tickets</a>
           </li>
-          <li class = "navitem-current">
+          <li class = "navitem">
             <a class="nav-link active" aria-current="page" href="./auditions.html">Auditions</a>
           </li>
           <li class = "navitem">
@@ -49,140 +52,150 @@
       </div>
     </div>
   </nav>
-    <section id="upcoming-shows">
-        <h1>Auditions</h1>
-        <div class="multi-column-container">
-            <section class="three-column-item">
-                <h2>Fall Drama</h2>
-                <ul class="no-bullets">
-                    <li>
-                        <p class="audition-information">Title:</p>
-                        <p class="title">Not a Real Play</p>
-                    </li>
-                    <li>
-                        <p class="audition-information">Synopsis:</p>
-                        <p class>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, amet.</p>
-                    </li>
-                </ul>
-                <h3>Mens Parts</h3>
-                    <ol class="role-list">
-                        <li>
-                            <p class="audition-information">Albert  (20-25):</p>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, soluta.</p>
-                        </li>
-                        <li>
-                            <p class="audition-information">Barry (35-40):</p>
-                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis, totam?</p>
-                        </li>
-                    </ol>
-                <h3>Womens Parts</h3>
+
+<!--begin page-->
+
+<section id="upcoming-shows">
+    <h1>Auditions</h1>
+    <div class="multi-column-container">
+        <section class="three-column-item">
+            <h2>Fall Drama</h2>
+            <ul class="no-bullets">
+                <li>
+                    <p class="audition-information">Title:</p>
+                    <p class="title">Not a Real Play</p>
+                </li>
+                <li>
+                    <p class="audition-information">Synopsis:</p>
+                    <p class>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, amet.</p>
+                </li>
+            </ul>
+            <h3>Mens Parts</h3>
                 <ol class="role-list">
                     <li>
-                        <p class="audition-information">Claire  (20-25):</p>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, assumenda.</p>
+                        <p class="audition-information">Albert  (20-25):</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, soluta.</p>
                     </li>
                     <li>
-                        <p class="audition-information">Danielle (30-35):</p>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, earum.</p>
+                        <p class="audition-information">Barry (35-40):</p>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis, totam?</p>
                     </li>
                 </ol>
-            </section>
-            <section class="three-column-item">
-                <h2>Winter Musical</h2>
-                <ul class="no-bullets">
-                    <li>
-                        <p class="audition-information">Title:</p>
-                        <p class="title">Nary a Jingle</p>
-                    </li>
-                    <li>
-                        <p class="audition-information">Synopsis:</p>
-                        <p class>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, amet.</p>
-                    </li>
-                </ul>
-                <h3>Mens Parts</h3>
-                    <ol class="role-list">
-                        <li>
-                            <p class="audition-information">Edward  (20-25):</p>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, soluta.</p>
-                        </li>
-                        <li>
-                            <p class="audition-information">Frank (35-40):</p>
-                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis, totam?</p>
-                        </li>
-                        <li>
-                            <p class="audition-information">Greg (60-65):</p>
-                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus, fuga.</p>
-                        </li>
-                        <li>
-                            <p class="audition-information">Harold (50-55):</p>
-                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam, provident!</p>
-                        </li>
-                    </ol>
-                <h3>Womens Parts</h3>
+            <h3>Womens Parts</h3>
+            <ol class="role-list">
+                <li>
+                    <p class="audition-information">Claire  (20-25):</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, assumenda.</p>
+                </li>
+                <li>
+                    <p class="audition-information">Danielle (30-35):</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, earum.</p>
+                </li>
+            </ol>
+        </section>
+        <section class="three-column-item">
+            <h2>Winter Musical</h2>
+            <ul class="no-bullets">
+                <li>
+                    <p class="audition-information">Title:</p>
+                    <p class="title">Nary a Jingle</p>
+                </li>
+                <li>
+                    <p class="audition-information">Synopsis:</p>
+                    <p class>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, amet.</p>
+                </li>
+            </ul>
+            <h3>Mens Parts</h3>
                 <ol class="role-list">
                     <li>
-                        <p class="audition-information">Ingrid (50-55):</p>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas, incidunt.</p>
+                        <p class="audition-information">Edward  (20-25):</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, soluta.</p>
                     </li>
                     <li>
-                        <p class="audition-information">Jane (40-45):</p>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas, incidunt.</p>
+                        <p class="audition-information">Frank (35-40):</p>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis, totam?</p>
                     </li>
                     <li>
-                        <p class="audition-information">Janay (25-30):</p>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit, nesciunt.</p>
+                        <p class="audition-information">Greg (60-65):</p>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus, fuga.</p>
                     </li>
                     <li>
-                        <p class="audition-information">Kendra (20-25):</p>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas, incidunt.</p>
-                    </li>
-                    <li>
-                        <p class="audition-information">Lucy (30-35):</p>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas, incidunt.</p>
+                        <p class="audition-information">Harold (50-55):</p>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam, provident!</p>
                     </li>
                 </ol>
-            </section>
-            <section class="three-column-item">
-                <h2>Summer One-Acts</h2>
-                <ul class="no-bullets">
-                    <li>
-                        <p class="audition-information">Title:</p>
-                        <p class="title">No Show</p>
-                    </li>
-                    <li>
-                        <p class="audition-information">Synopsis:</p>
-                        <p class>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, amet.</p>
-                    </li>
-                </ul>
-                <h3>Mens Parts</h3>
-                    <ol class="role-list">
-                        <li>
-                            <p class="audition-information">Paul  (30-35):</p>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, soluta.</p>
-                        </li>
-                        <li>
-                            <p class="audition-information">Oliver (35-40):</p>
-                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis, totam?</p>
-                        </li>
-                    </ol>
-                <h3>Womens Parts</h3>
+            <h3>Womens Parts</h3>
+            <ol class="role-list">
+                <li>
+                    <p class="audition-information">Ingrid (50-55):</p>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas, incidunt.</p>
+                </li>
+                <li>
+                    <p class="audition-information">Jane (40-45):</p>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas, incidunt.</p>
+                </li>
+                <li>
+                    <p class="audition-information">Janay (25-30):</p>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit, nesciunt.</p>
+                </li>
+                <li>
+                    <p class="audition-information">Kendra (20-25):</p>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas, incidunt.</p>
+                </li>
+                <li>
+                    <p class="audition-information">Lucy (30-35):</p>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas, incidunt.</p>
+                </li>
+            </ol>
+        </section>
+        <section class="three-column-item">
+            <h2>Summer One-Acts</h2>
+            <ul class="no-bullets">
+                <li>
+                    <p class="audition-information">Title:</p>
+                    <p class="title">No Show</p>
+                </li>
+                <li>
+                    <p class="audition-information">Synopsis:</p>
+                    <p class>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, amet.</p>
+                </li>
+            </ul>
+            <h3>Mens Parts</h3>
                 <ol class="role-list">
                     <li>
-                        <p class="audition-information">Margaret  (20-25):</p>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, assumenda.</p>
+                        <p class="audition-information">Paul  (30-35):</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, soluta.</p>
                     </li>
                     <li>
-                        <p class="audition-information">Norma (30-35):</p>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, earum.</p>
-                    </li>
-                    <li>
-                        <p class="audition-information">Siman (30-35):</p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus, mollitia.</p>
+                        <p class="audition-information">Oliver (35-40):</p>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis, totam?</p>
                     </li>
                 </ol>
-            </section>
-        </div>
-    </section>
+            <h3>Womens Parts</h3>
+            <ol class="role-list">
+                <li>
+                    <p class="audition-information">Margaret  (20-25):</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, assumenda.</p>
+                </li>
+                <li>
+                    <p class="audition-information">Norma (30-35):</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, earum.</p>
+                </li>
+                <li>
+                    <p class="audition-information">Siman (30-35):</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus, mollitia.</p>
+                </li>
+            </ol>
+        </section>
+    </div>
+</section>
+
+<script
+  src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+  crossorigin="anonymous">
+</script>
+
 </body>
 
 </html>

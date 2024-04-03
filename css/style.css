@@ -8,7 +8,6 @@ h1, h2, h3, .title{
 
 p {
     color: darkblue;
-    font-size: 16px;
 }
 
 .multi-column-container {
@@ -21,10 +20,6 @@ p {
     margin: 25px 5px;
     border: 5px groove goldenrod;
     border-radius: 14px;
-}
-
-.navitem, .navitem-current{
-    font-size: 16px;
 }
 
 .navitem-current {
@@ -51,6 +46,5 @@ p {
 
 .role-list{
     list-style: upper-roman;
-    font-size: 16px;
     color: black;
 }
