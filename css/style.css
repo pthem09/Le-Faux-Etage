@@ -2,9 +2,13 @@ body {
     background-color: lightgrey;
 }
 
+h1, h2, h3{
+    text-align: center;
+}
+
 p {
     color: darkblue;
-    font-size: 2rem;
+    font-size: 16px;
 }
 
 .multi-column-container {
@@ -12,8 +16,37 @@ p {
 }
 
 .three-column-item {
-    width: calc(100% / 3 - 10px);
-    margin: 25px 5 px;
-    border: 5px dotted black;
-    border-radius: 15px;
+    width: calc(100% / 3);
+    align-items: center;
+    margin: 25px 5px;
+    border: 5px groove goldenrod;
+    border-radius: 14px;
+}
+
+.navitem-current {
+    background-color: aquamarine;
+    font-style: italic;
+}
+
+.navitem :hover{
+    background-color: blueviolet;
+    font-style: oblique;
+}
+
+.no-bullets{
+    list-style: none;
+}
+
+.audition-information{
+    font-weight: bold;
+}
+
+.title{
+    font-style: italic;
+}
+
+.role-list{
+    list-style: upper-roman;
+    font-size: 16px;
+    color: black;
 }
