@@ -15,9 +15,9 @@ p {
 }
 
 .three-column-item {
-    width: calc(100% / 3);
     align-items: center;
     margin: 25px 5px;
+    width: calc(100% / 3);
     border: 5px groove goldenrod;
     border-radius: 14px;
 }
@@ -53,4 +53,11 @@ p {
     background: rgba(112, 128, 144, 0.8);
     border-radius: 6rem;
     font-weight: bold;
+}
+
+/*******contact us*********/
+input {
+    height: 2rem;
+    flex: 0 0 200px;
+    margin-left: 10px;
 }
