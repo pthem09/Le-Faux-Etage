@@ -1,1 +1,0 @@
-window.alert("Page under construction. Don't worry -- there are no real tickets anyway!")
