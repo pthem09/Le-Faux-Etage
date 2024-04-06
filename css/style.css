@@ -98,19 +98,41 @@ p {
 
 /**********tickets********/
 
-.ticket-table{
+table, th, td{
+    border: 1px solid;
+}
+
+.ticket-table-container{
     display: flex;
-    flex-direction: column;
-    align-items: center;
     justify-content: center;
+}
+
+.ticket-table{
     border-style: solid;
-    border-left-style: double;
     border-color: black;
 }
 
 .ticket-table.header{
     font-style: italic;
     text-align: center;
+}
+
+.ticket-btn{
+    background-color: lightgrey;
+}
+
+.ticket-btn:hover{
+    background-color:rgb(127, 255, 212);
+}
+
+.ticket-img{
+    border-radius: 25px;
+    width: 25%;
+}
+
+.ticket-img:hover{
+    transform: scale(1.05);
+    transition-duration: 0.1s;
 }
 
 /****merch***/
