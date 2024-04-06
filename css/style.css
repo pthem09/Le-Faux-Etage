@@ -36,10 +36,13 @@ p, h5 {
     display: flex;
 }
 
-.three-column-item {
+.three-column-item, .three-column-footer {
     align-items: center;
     margin: 25px 5px;
     width: calc(100% / 3);
+}
+
+.three-column-item{
     border: 5px groove goldenrod;
     border-radius: 14px;
 }
@@ -52,10 +55,6 @@ p, h5 {
 .navitem :hover{
     background-color: rgb(211, 186, 235);
     font-style: oblique;
-}
-
-.no-bullets{
-    list-style: none;
 }
 
 .audition-information{
@@ -137,6 +136,12 @@ table, th, td{
     transition-duration: 0.1s;
 }
 
+/*****auditions******/
+
+.no-bullets{
+    list-style: none;
+}
+
 /****merch***/
 
 .merch-box{
@@ -153,4 +158,13 @@ table, th, td{
 .merch-img:hover{
     transform: scale(1.1);
     transition-duration: 0.2s;
+}
+
+/* footer */
+
+.footer-text {
+    color: black;
+    font-size: 0.75rem;
+    padding: 0;
+    margin: 0;
 }
