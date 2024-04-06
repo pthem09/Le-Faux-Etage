@@ -62,6 +62,7 @@ p {
 
 .title{
     font-style: italic;
+    margin: 0;
 }
 
 .role-list{
