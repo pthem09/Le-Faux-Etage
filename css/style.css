@@ -8,11 +8,26 @@ h1, h2, h3, .title{
     padding: 12px auto;
 }
 
-.page-start{
-    margin-top: 70px;
-}
 p {
     color: darkblue;
+}
+
+/*****home page carousel*****/
+
+.carousel-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#carouselLFEShows{
+    min-width: 720px;
+    width: 45%;
+}
+
+/**standard page margin below fixed-top navbar***/
+.page-start{
+    margin-top: 70px;
 }
 
 .multi-column-container {
@@ -107,9 +122,4 @@ p {
 .merch-img:hover{
     transform: scale(1.1);
     transition-duration: 0.2s;
-}
-
-#carouselLFEShows{
-    min-width: 720px;
-    width: calc(50% - 10rem);
 }
