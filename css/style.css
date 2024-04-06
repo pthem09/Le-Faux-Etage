@@ -8,6 +8,9 @@ h1, h2, h3, .title{
     padding: 12px auto;
 }
 
+.page-start{
+    margin-top: 70px;
+}
 p {
     color: darkblue;
 }
@@ -75,4 +78,33 @@ p {
 [type="submit"]:hover{
     font-style: oblique;
     font-weight: bold;
+}
+
+/**********tickets********/
+
+.ticket-table{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-style: solid;
+    border-left-style: double;
+    border-color: black;
+}
+
+.ticket-table.header{
+    font-style: italic;
+    text-align: center;
+}
+
+/****merch***/
+.merch-img{
+    display: flex;
+    position: center;
+    border-radius: 25px;
+}
+
+.merch-img:hover{
+    transform: scale(1.1);
+    transition-duration: 0.2s;
 }
