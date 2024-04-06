@@ -8,8 +8,10 @@ h1, h2, h3, .title{
     padding: 12px auto;
 }
 
-p {
+p, h5 {
     color: darkblue;
+    padding: 1rem;
+    
 }
 
 /*****home page carousel*****/
