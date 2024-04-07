@@ -7,9 +7,9 @@ Hosting link: https://pthem09.github.io/Le_Faux_Etage/
 - Developed by Paul Them, 2024
 - The website helps a fictional theater share updates on current and upcoming shows, with notices for auditions and a cart for tickets and merchandise.
 - Technologies used:
--- HTML
--- CSS
--- JavaScript
+  - HTML
+  - CSS
+  - JavaScript
 - Ideas for improvements:
 1) Develop an active shopping cart and allow people to select quantities of each item or remove items from the cart. Order totals should appear.
 2) Develop a ticketing system for the theater. If the audience capacity is 100, then the site should track how many tickets have been sold. It should display a notice when 10 or fewer tickets remain, and not allow more than 100 to be sold.
