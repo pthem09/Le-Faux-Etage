@@ -55,7 +55,7 @@ h1, h2, h3 {
     padding: 12px auto;
 }
 
-a, p, h2, h3, h4, h5, h6, button, .form-control {
+a, p, h2, h3, h4, h5, h6, button, .form-control, .footer-text {
     font-family: "EB Garamond";
     padding: 1rem;
 }
