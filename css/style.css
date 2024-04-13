@@ -94,9 +94,11 @@ nav {
     width: calc(100% / 3);
 }
 
-.three-column-item {
+.audition-block {
+    align-items: center;
     border: 5px groove goldenrod;
     border-radius: 14px;
+    margin: 0px 20px;
 }
 
 .audition-information {
