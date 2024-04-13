@@ -83,17 +83,7 @@ nav {
     font-weight: bold;
 }
 
-/******Auditions and Footer column specification*****/
-.multi-column-container {
-    display: flex;
-}
-
-.three-column-item, .three-column-footer {
-    align-items: center;
-    margin: 25px 5px;
-    width: calc(100% / 3);
-}
-
+/********Auditions page styles******/
 .audition-block {
     align-items: center;
     border: 5px groove goldenrod;
