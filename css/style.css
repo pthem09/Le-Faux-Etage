@@ -31,13 +31,17 @@ body, .navbar-custom, .ticket-btn {
     background-color: lightgrey;
 }
 
+.form-control {
+    background-color: rgb(245, 245, 220);
+}
+
 .navitem {
     width: 125px;
     text-align: center;
 }
 
-.navitem.current, .lfe-contact-us:hover, .merch-btn, .ticket-btn:hover {
-    background-color:aquamarine;
+.navitem.current, .lfe-contact-us, .merch-btn, .ticket-btn:hover {
+    background-color:rgb(53, 159, 181);
 }
 
 .navitem.current {
@@ -116,9 +120,6 @@ nav {
 }
 
 /********************Contact Us**********************/
-.form-control {
-    background-color: rgb(245, 245, 220);
-}
 
 .lfe-contact-us, .merch-btn {
     padding: 12px 20px;
