@@ -26,28 +26,24 @@ User types:
 - **T-shirt Tommy** wants to browse the branded items from the theater.
 
 ```
-AS A <User_Type>    (Who?)
-I WANT TO <Action>  (What?)
-SO THAT <Goal>      (Why?)
-
 AS Audrey
-I WANT TO see the calendar for upcoming shows and buy tickets
-SO THAT I do not miss the best theater around.
+I WANT TO buy tickets
+SO THAT I do not miss local theater.
 
 AS Andy
-I WANT TO view the audition information
+I WANT TO view information on upcoming auditions
 SO THAT I am prepared to land the role.
 
 AS Vicky
-I WANT TO find contact information
-SO THAT I can get involved in the local theater.
+I WANT TO find contact information of the theater
+SO THAT I can get involved.
 
 AS Rob
 I WANT TO learn more about the theater's history and who to contact
-SO THAT I can promote great local theater on my radio show.
+SO THAT I can promote a great local theater on my radio show.
 
 AS Tommy
 I WANT TO see all the merchandise from the theater
-SO THAT I can buy a cool new t-shirt or hat online.
+SO THAT I can buy a cool new t-shirt or hat.
 
 ```
