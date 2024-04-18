@@ -31,6 +31,11 @@ body, .navbar-custom, .ticket-btn {
     background-color: lightgrey;
 }
 
+.navitem {
+    width: 125px;
+    text-align: center;
+}
+
 .navitem.current, .lfe-contact-us:hover, .merch-btn, .ticket-btn:hover {
     background-color:aquamarine;
 }
