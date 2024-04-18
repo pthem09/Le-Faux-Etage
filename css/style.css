@@ -40,6 +40,10 @@ body, .navbar-custom, .ticket-btn {
     text-align: center;
 }
 
+.merch-btn {
+    width: 225px;
+}
+
 .navitem.current, .lfe-contact-us, .merch-btn, .ticket-btn:hover {
     background-color:rgb(53, 159, 181);
 }
