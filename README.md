@@ -1,6 +1,6 @@
 ﻿# Website for Le Faux Etage community theater
 
-Hosting link: https://pthem09.github.io/Le_Faux_Etage/
+Hosting link: https://pthem09.github.io/Le-Faux-Etage/
 
 ## Project overview
 
